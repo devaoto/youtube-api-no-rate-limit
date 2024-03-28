@@ -2,6 +2,9 @@
   "name": "youtube-api-no-rate-limit",
   "module": "index.ts",
   "type": "module",
+  "scripts": {
+    "build": "bun-vercel index.ts"
+  },
   "devDependencies": {
     "@types/bun": "latest"
   },
@@ -10,6 +13,7 @@
   },
   "dependencies": {
     "@elysiajs/cors": "^1.0.2",
+    "bun-vercel": "^1.0.0-alpha.5",
     "elysia": "^1.0.9",
     "ytscr": "latest"
   }
