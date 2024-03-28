@@ -1,0 +1,16 @@
+{
+  "name": "youtube-api-no-rate-limit",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@elysiajs/cors": "^1.0.2",
+    "elysia": "^1.0.9",
+    "ytscr": "latest"
+  }
+}
